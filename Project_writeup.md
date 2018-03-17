@@ -1,4 +1,4 @@
-﻿## Vehicle Detection Project
+## Vehicle Detection Project
 
 The goals / steps of this project are the following:
 
@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image11]: ./ouput_images/heatmap2.png
 [image12]: ./ouput_images/heatmap3.png
 [image13]: ./ouput_images/heatmap4.png
-[image14]: ./ouput_images/heatmap.5png
+[image14]: ./ouput_images/heatmap5.png
 [image15]: ./ouput_images/hog%20image.png
 [image16]: ./ouput_images/hog%20image1.png
 [image17]: ./ouput_images/hog%20image2.png
@@ -56,13 +56,13 @@ The code for this step is contained in the ```get_hog_features``` function defin
 
 I started by reading in all the \`vehicle\` and \`non-vehicle\` images.  Here are some examples of images in each of the \`vehicle\` and \`non-vehicle\` classes:
 
-!\[alt text\]\[image25\]
+![alt text][image25]
 
-!\[alt text\]\[image26\]
+![alt text][image26]
 
-!\[alt text\]\[image27\]
+![alt text][image27]
 
-!\[alt text\]\[image28\]
+![alt text][image28]
 
 I then explored different color spaces and different \`skimage.hog()\` parameters (\`orientations\`, \`pixels\_per\_cell\`, and \`cells\_per\_block\`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the \`skimage.hog()\` output looks like.
 After trying various parameters I arrived on the following set of parameters for the HOG transformations:
@@ -76,13 +76,13 @@ After trying various parameters I arrived on the following set of parameters for
 
 Below are few random images obtained by using the above mentioned parameters:
 
-!\[alt text\]\[image15\]
+![alt text][image15]
 
-!\[alt text\]\[image16\]
+![alt text][image16]
 
-!\[alt text\]\[image17\]
+![alt text][image17]
 
-!\[alt text\]\[image18\]
+![alt text][image18]
 
 \#### 2\. Explain how you settled on your final choice of HOG parameters.
 
@@ -97,13 +97,13 @@ I have also used to the color histogram to train the model. I have used  the YCr
 
 Below is the image of the color histogram:
 
-!\[alt text\]\[image5\]
+![alt text][image5]
 
-!\[alt text\]\[image6\]
+![alt text][image6]
 
-!\[alt text\]\[image7\]
+![alt text][image7]
 
-!\[alt text\]\[image8\]
+![alt text][image8]
 
 \#### 3\. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
@@ -119,17 +119,17 @@ I have implemented the HOG subsampling window-search for finding the car positio
 
 Ultimately I searched on 5 scales using YCrCb color space and 3-channel HOG features plus histograms of color in the feature vector, which provided a nice result.  Here are some example images:
 
-!\[alt text\]\[image19\]
+![alt text][image19]
 
-!\[alt text\]\[image20\]
+![alt text][image20]
 
-!\[alt text\]\[image21\]
+![alt text][image21]
 
-!\[alt text\]\[image22\]
+![alt text][image22]
 
-!\[alt text\]\[image23\]
+![alt text][image23]
 
-!\[alt text\]\[image24\]
+![alt text][image24\]
 
 \-\-\-
 
@@ -145,17 +145,17 @@ I recorded the positions of positive detections in each frame of the video.  Fro
 
 \### Here are the heatmaps for the six test images:
 
-!\[alt text\]\[image9\]
+![alt text] [image9]
 
-!\[alt text\]\[image10\]
+![alt text][image10]
 
-\[alt text\]\[image11\]
+![alt text][image11]
 
-\[alt text\]\[image12\]
+![alt text][image12]
 
-\[alt text\]\[image13\]
+![alt text][image13]
 
-\[alt text\]\[image14\]
+![alt text][image14]
 
 \-\-\-
 
