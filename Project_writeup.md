@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 [image7]: ./ouput_images/color%20histogram2.png
 [image8]: ./ouput_images/color%20histogram3.png
 [image9]: ./ouput_images/heatmap.png
-[image10]: ./ouput_images/heatmap1png
+[image10]: ./ouput_images/heatmap1.png
 [image11]: ./ouput_images/heatmap2.png
 [image12]: ./ouput_images/heatmap3.png
 [image13]: ./ouput_images/heatmap4.png
