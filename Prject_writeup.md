@@ -9,35 +9,35 @@ The goals / steps of this project are the following:
 \* Run your pipeline on a video stream (start with the test\_video.mp4 and later implement on full project\_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 \* Estimate a bounding box for vehicles detected.
 
-\[//\]: # (Image References)
-\[image1\]: ./ouput_images/clor%20channel%20images.png
-\[image2\]: ./ouput_images/clor%20channel%20images1.png
-\[image3\]: ./ouput_images/clor%20channel%20images2.png
-\[image4\]: ./ouput_images/clor%20channel%20images4.png
-\[image5\]: ./ouput_images/color%20histogram.png
-\[image6\]: ./ouput_images/color%20histogram1.png
-\[image7\]: ./ouput_images/color%20histogram2.png
-\[image8\]: ./ouput_images/color%20histogram3.png
-\[image9\]: ./ouput_images/heatmap.png
-\[image10\]: ./ouput_images/heatmap.1png
-\[image11\]: ./ouput_images/heatmap2.png
-\[image12\]: ./ouput_images/heatmap3.png
-\[image13\]: ./ouput_images/heatmap4.png
-\[image14\]: ./ouput_images/heatmap.5png
-\[image15\]: ./ouput_images/hog%20image.png
-\[image16\]: ./ouput_images/hog%20image1.png
-\[image17\]: ./ouput_images/hog%20image2.png
-\[image18\]: ./ouput_images/hog%20image3.png
-\[image19\]: ./ouput_images/test%20res.png
-\[image20\]: ./ouput_images/test%20res1.png
-\[image21\]: ./ouput_images/test%20res2.png
-\[image22\]: ./ouput_images/test%20res3.png
-\[image23\]: ./ouput_images/test%20res4.png
-\[image24\]: ./ouput_images/test%20res5.png
-\[image25\]: ./ouput_images/training%20data%20visualization.png
-\[image26\]: ./ouput_images/training%20data%20visualization1.png
-\[image27\]: ./ouput_images/training%20data%20visualization2.png
-\[image28\]: ./ouput_images/training%20data%20visualization3.png
+[//]: # (Image References)
+[image1]: ./ouput_images/clor%20channel%20images.png
+[image2]: ./ouput_images/clor%20channel%20images1.png
+[image3]: ./ouput_images/clor%20channel%20images2.png
+[image4]: ./ouput_images/clor%20channel%20images4.png
+[image5]: ./ouput_images/color%20histogram.png
+[image6]: ./ouput_images/color%20histogram1.png
+[image7]: ./ouput_images/color%20histogram2.png
+[image8]: ./ouput_images/color%20histogram3.png
+[image9]: ./ouput_images/heatmap.png
+[image10]: ./ouput_images/heatmap.1png
+[image11]: ./ouput_images/heatmap2.png
+[image12]: ./ouput_images/heatmap3.png
+[image13]: ./ouput_images/heatmap4.png
+[image14]: ./ouput_images/heatmap.5png
+[image15]: ./ouput_images/hog%20image.png
+[image16]: ./ouput_images/hog%20image1.png
+[image17]: ./ouput_images/hog%20image2.png
+[image18]: ./ouput_images/hog%20image3.png
+[image19]: ./ouput_images/test%20res.png
+[image20]: ./ouput_images/test%20res1.png
+[image21]: ./ouput_images/test%20res2.png
+[image22]: ./ouput_images/test%20res3.png
+[image23]: ./ouput_images/test%20res4.png
+[image24]: ./ouput_images/test%20res5.png
+[image25]: ./ouput_images/training%20data%20visualization.png
+[image26]: ./ouput_images/training%20data%20visualization1.png
+[image27]: ./ouput_images/training%20data%20visualization2.png
+[image28]: ./ouput_images/training%20data%20visualization3.png
 
 
 \## \[Rubric\](https://review.udacity.com/#!/rubrics/513/view) Points
