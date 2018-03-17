@@ -133,7 +133,7 @@ Ultimately I searched on 5 scales using YCrCb color space and 3-channel HOG feat
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a [link to my video result](./output_video/project_video_output.mp4)
+Here's a [link to my video result](./project_video_output_heat5_avg10.mp4)
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
