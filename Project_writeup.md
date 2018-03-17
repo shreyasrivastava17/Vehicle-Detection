@@ -90,6 +90,7 @@ First I tried to obtain a result with the initial hyperparameters that are menti
 
 #### Color Histogram:
 I have also used to the color histogram to train the model. I have used  the YCrCb color space and a 32 histogram bins
+
 | HYPERPARAMETRS|VALUE|
 |:--------------:|:------------:|
 |Color Space|YCrCb|
